@@ -18,6 +18,7 @@ const Index = () => {
               className="h-12 object-contain"
             />
             <div className="flex gap-6 text-workshop-cyan">
+              <Link to="/thank-you" className="invisible absolute">Thank You</Link>
               <a href="#contact" className="hover:text-workshop-neonPurple transition-colors">Contact</a>
             </div>
           </div>
