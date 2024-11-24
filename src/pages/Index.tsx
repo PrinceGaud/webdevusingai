@@ -3,6 +3,7 @@ import { Certificate } from "@/components/sections/Certificate";
 import { Career } from "@/components/sections/Career";
 import { AIImpact } from "@/components/sections/AIImpact";
 import { Contact } from "@/components/sections/Contact";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
               className="h-12 object-contain"
             />
             <div className="flex gap-6 text-workshop-cyan">
+              <Link to="/thank-you" className="hover:text-workshop-neonPurple transition-colors">Thank You</Link>
               <a href="#contact" className="hover:text-workshop-neonPurple transition-colors">Contact</a>
             </div>
           </div>

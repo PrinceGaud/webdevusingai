@@ -5,7 +5,7 @@ import FloatingPhoto from "@/components/FloatingPhoto";
 
 export const Hero = () => {
   const handleRegisterClick = () => {
-    window.location.href = "https://rzp.io/rzp/BIRCmfX";
+    window.location.href = "https://pages.razorpay.com/pay-for-workshop-anishk";
   };
 
   return (
