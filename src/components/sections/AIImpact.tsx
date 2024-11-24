@@ -4,7 +4,7 @@ import { Rocket, ChevronRight } from "lucide-react";
 
 export const AIImpact = () => {
   const handleRegisterClick = () => {
-    window.location.href = "https://rzp.io/rzp/BIRCmfX";
+    window.location.href = "https://pages.razorpay.com/pay-for-workshop-anishk";
   };
 
   return (
